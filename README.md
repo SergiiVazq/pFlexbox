@@ -26,5 +26,5 @@ Para la construcción de este sitio, se integraron diversas fuentes de conocimie
 * 🌐 **Documentación Técnica:** Investigación activa sobre estándares W3C.
 * 🤖 **Asistencia con IA:**
     * Optimización de la **paleta cromática**.
-    * Generación del **boilerplate** (esqueleto base) para agilizar el desarrollo inicial.
+    * Generación del(esqueleto base) para agilizar el desarrollo inicial.
 ---
