@@ -26,5 +26,5 @@ Para la construcción de este sitio, se integraron diversas fuentes de conocimie
 * 🌐 **Documentación Técnica:** Investigación activa sobre estándares W3C.
 * 🤖 **Asistencia con IA:**
     * Optimización de la **paleta cromática**.
-    * generador de readme del proyecto*.
+    * Generador de readme del proyecto*.
 ---
