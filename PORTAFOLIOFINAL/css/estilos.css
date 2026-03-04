@@ -1,0 +1,262 @@
+        /* colores almacenados en constantes */
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #91BBC1;
+            --bg-body: #f4f7f6;
+            --text-dark: #333;
+            --text-light: #7f8c8d;
+            --white: #ffffff;
+            --skill-bar: #3498db;
+            --footer-text: #666;
+            --link-color: #1756bd; 
+        }
+
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--bg-body);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            color: var(--text-dark);
+            min-height: 100vh;
+        }
+        /*contenedor pirncipal*/
+        .contenedorprincipal {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            max-width: 1000px;
+            background: var(--white);
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            margin-bottom: 20px;
+        }
+
+        /* barralateral los bloques dentro de este elemneto se colocan centrados dentro del espacion y alineados hacia abajo*/
+        .barralateral {
+            flex: 1;
+            background-color: var(--accent-color);
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            color: var(--primary-color);
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+        }
+        /*estilo de la foto de perfil */
+        .perfil img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid rgba(255,255,255,0.3);
+            margin-bottom: 20px;
+        }
+        /* stilo del hi de barralateral */
+        .barralateral h1 {
+            font-size: 1.5rem;
+            margin-bottom: 5px;
+            line-height: 1.2;
+        }
+        /* stilo del texto de barralateral */
+        .barralateral p {
+            font-weight: 300;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+        /*contenedor d econtacto donde ese almacenan los botones hacia abajo */
+        .contacto {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        /* stilo de los botones todo centrado*/
+        .btn {
+            background: var(--white);
+            text-decoration: none;
+            padding: 12px;
+            border-radius: 8px;
+            font-weight: 500;
+            font-size: 0.9rem;
+            color: var(--primary-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        /*cuando pasamos e lmouse por arriva hace un movimiento */
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        /* --- CONTENIDO PRINCIPAL --- 
+        segundo contenedo con una relacion 3 a 1 con respecto a barra lateral
+        */
+        .contenidoprincipal {
+            flex: 3;
+            padding: 40px;
+        }
+
+        section { margin-bottom: 35px; }
+        /* stilo de lso titulos */
+        .titulo {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            border-bottom: 2px solid var(--accent-color);
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        /*texto de la primera parte de perfil */
+        .perfiltexto {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: var(--text-dark);
+        }
+        /*contenedores de dos columnas */
+        .contenedor_contenido {
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        /*elementos dentro de los contenedores */
+        .cuadrado {
+            background: #fafafa;
+            padding: 15px;
+            border-radius: 10px;
+            border-left: 4px solid var(--accent-color);
+            position: relative;
+            overflow: hidden;
+        }
+        /* stilo de los titulos de los h4 dentro de las clases cuadrado */
+        .cuadrado h4 { 
+            font-size: 0.95rem; 
+            margin-bottom: 5px; 
+            color: var(--primary-color); 
+        }
+
+        .cuadrado p { 
+            font-size: 0.85rem; 
+            color: var(--text-light); 
+        }
+
+        /* contenedor de barras de pprogreso*/
+        .contenedorhabilidades {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .habilidades { margin-bottom: 10px; }
+        /* cada barrade progureso con su titulo stylo */
+        .skill-label { 
+            font-size: 0.8rem; 
+            font-weight: bold; 
+            margin-bottom: 6px; 
+            display: block; 
+            text-transform: uppercase;
+        }
+        /*stylo barra de progreso */
+        .progress-bar {
+            height: 8px;
+            background: #eee;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: var(--skill-bar);
+            border-radius: 10px;
+        }
+
+        .w-50 { width: 50%; }
+        .w-90 { width: 90%; }
+        .w-60 { width: 60%; }
+        .w-80 { width: 80%; }
+
+        .link-portafolio {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+        /*stylo de las imagenes de lso proyectos */
+        .img-proyecto {
+            width: 100%;
+            height: auto;
+            border-radius: 6px;
+            margin-top: 10px;
+            display: block;
+            transition: opacity 0.3s;
+        }
+        /* al pasar el raton se ilumina un poco casi no se aprecia al ser fondo blanco */
+        .img-proyecto:hover {
+            opacity: 0.8;
+        }
+
+        /* Habilidades (Tags) los elementos de alinean por orden con distancia de 10 px*/
+        .contenedorhabilidades2 {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        /*stylo de cada elemento */
+        .tag {
+            background: var(--accent-color);
+            color: var(--primary-color);
+            padding: 6px 15px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        /* --- FOOTER --- */
+        .pie-pagina {
+            width: 100%;
+            max-width: 1000px;
+            background: var(--white);
+            padding: 20px 40px;
+            border-radius: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.85rem;
+            color: var(--footer-text);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        .pie-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .pie-links a {
+            text-decoration: none;
+            color: var(--link-color);
+            font-weight: 500;
+        }
+        /* cuando al pantalla supera los 768 px se cambia de formato a vertical para telefonos*/
+        @media (max-width: 768px) {
+            .contenedorprincipal {
+                flex-direction: column;
+            }
+            .barralateral {
+                border-bottom-left-radius: 0;
+                border-top-right-radius: 15px;
+            }
+            .contenedor_contenido, .contenedorhabilidades {
+                grid-template-columns: 1fr;
+            }
+            .pie-pagina {
+                flex-direction: column;
+                gap: 15px;
+                text-align: center;
+            }
+        }
