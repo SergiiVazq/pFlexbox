@@ -1,27 +1,30 @@
-Portafolio Web
-👨‍💻 Sergio Vázquez Varela
+# 🚀 Portafolio Web
+> **Desarrollado por:** Sergio Vázquez Varela
 
-📌 Descripción
-Este proyecto es un portafolio web personal diseñado para mostrar mis habilidades y proyectos. Ha sido desarrollado utilizando estándares modernos de HTML5 y CSS3, centrando el flujo de diseño en el uso de Flexbox para lograr una distribución de elementos limpia y eficiente.
+---
 
-El objetivo principal fue consolidar los conocimientos de maquetación web y diseño responsivo, asegurando que la interfaz sea funcional y atractiva.
+## 📌 Descripción
+Este proyecto es un **portafolio web personal** diseñado para proyectar mis habilidades y trayectoria. Construido bajo estándares modernos, el enfoque principal recae en una estructura semántica limpia y una distribución visualmente equilibrada.
 
-🚀 Tecnologías Utilizadas
-HTML5: Estructura semántica del contenido.
+* **Objetivo:** Consolidar conocimientos en maquetación web y diseño responsivo.
+* **Enfoque:** Experiencia de usuario (UX) fluida mediante el uso de Flexbox.
 
-CSS3: Estilos, diseño visual y animaciones.
+---
 
-Flexbox: Sistema de diseño principal para la organización de contenedores.
+## 🛠️ Tecnologías Utilizadas
 
-📚 Material Utilizado
-Para el desarrollo de este portafolio, se emplearon los siguientes recursos:
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![Flexbox](https://img.shields.io/badge/Layout-Flexbox-blueviolet?style=for-the-badge)
 
-📖 Apuntes de clase: Base teórica de maquetación y diseño.
+---
 
-🌐 Investigación web: Documentación técnica y buenas prácticas de desarrollo.
+## 📚 Recursos y Aprendizaje
+Para la construcción de este sitio, se integraron diversas fuentes de conocimiento:
 
-🤖 Inteligencia Artificial: Utilizada como herramienta de apoyo para:
-
-Generación de una paleta de colores armónica.
-
-Creación del esqueleto base del proyecto para optimizar el tiempo de desarrollo inicial.
+* 📖 **Apuntes Académicos:** Fundamentos de diseño y estructura.
+* 🌐 **Documentación Técnica:** Investigación activa sobre estándares W3C.
+* 🤖 **Asistencia con IA:**
+    * Optimización de la **paleta cromática**.
+    * Generación del **boilerplate** (esqueleto base) para agilizar el desarrollo inicial.
+---
